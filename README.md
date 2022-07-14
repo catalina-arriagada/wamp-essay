@@ -1,2 +1,2 @@
 # wamp-essay
-primeros pasos wamp
+primeros pasos php wamp
