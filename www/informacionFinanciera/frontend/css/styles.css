@@ -1,0 +1,57 @@
+body{ 
+
+    /*estilos del body*/
+    margin: 0;
+    padding-top: 5rem;
+    text-align: center;
+
+    /*estilos del fondo del body*/
+    background-image: url(../img/background.jpg);/*llamo a la ruta de imagen de fondo*/
+    /*estilos para que imagen de fondo sea responsive:*/
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/*estilos del h1*/
+.titulo{
+    color: cornflowerblue;
+    font-size: 40px;
+}
+
+/*estilos del button*/
+.boton {
+    color: white;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 50px;
+    margin: 15px;
+    font-size: 20px;
+    
+}
+
+/*estilos del button al pasar el mouse*/
+.boton:hover{
+    background-color: darkblue;
+}
+
+/*estilos de la informacion que se trae de la base de datos*/
+#call {
+    color: red;
+    font-weight: bolder;
+    padding-right: 45px;
+    
+}
+
+/*estilos de a*/
+.enlace{
+    margin-top: 50px;
+    color: cornflowerblue;
+
+}

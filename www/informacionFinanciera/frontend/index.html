@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--caracteres occidentales-->
+    <meta charset="UTF-8">
+    <!--sitio responsive:-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo en barra del navegador-->
+    <title>Información Financiera</title>
+    <!--linkeo hacia mi archivo css:-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--hq con un titulo en la pagina del navegador:-->
+    <h1 class="titulo">Información Financiera</h1>
+    <!--llamo a la clase boton. Onclick es un evento html que permite que al hacer click, el usuario haga lo que se especifica: le asigno la variable get, que obtiene el nombre uf o utm del codigo javascript: -->
+    <button class="boton" onclick="get('uf')">UF</button>
+    <button class="boton" onclick="get('utm')">UTM</button>
+    <!--creo el tag que almacena listas, dentro le pongo una id de nombre "call", que llamare luego en el archivo javascript, y traere lo que este me traiga de vuelta a este tag:-->
+    <ul id="call">
+
+    </ul>
+    <!--creo enlace hacia la ruta del href, y creo clase enlace para llamarla desde el css:-->
+    <a class="enlace" href="https://www.sii.cl/valores_y_fechas/" target="_blank">Visite aquí para más información</a>
+    <!--llamo al archivo Javascript, de la ruta especificada en atributo src:-->
+    <script src="api.js"></script>
+</body>
+</html>
